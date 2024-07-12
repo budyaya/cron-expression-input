@@ -99,8 +99,10 @@ export default App;
 </template>
 
 <script>
+//import "cron-expression-input/lib/cron-expression-input.min.css"; /* CSS */
+//require("cron-expression-input"); /* JAVASCRIPT */
 import "cron-expression-input/lib/cron-expression-input.min.css"; /* CSS */
-require("cron-expression-input"); /* JAVASCRIPT */
+import "cron-expression-input/lib/cron-expression-input.min.js"; /* JAVASCRIPT */
 
 export default {
   name: 'App',
